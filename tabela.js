@@ -123,6 +123,8 @@ let participantes = [
 
     if(participanteExiste){
         alert('Email já cadastrado!')
+        event.target.querySelector('[name="nome"]').value = ""
+        event.target.querySelector('[name="email"]').value = ""
         return
     }
 
