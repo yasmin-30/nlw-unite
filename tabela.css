@@ -29,7 +29,8 @@ header {
 
 form {
     border: var(--border);
-    border-inline: none;
+    border-left: none;
+    border-right: none;
     padding: 20px 0;
 }
 
